@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
-import { Redirect, Route } from 'react-router-dom/cjs/react-router-dom.min';
+import { Redirect, Route, useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 import { userContext } from '../../App';
 
 const PrivateRoute = ({ children, ...rest }) => {
+
     const [userInfo]= useContext(userContext);
     console.log(userInfo);
     return (
