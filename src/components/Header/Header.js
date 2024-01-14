@@ -25,7 +25,7 @@ const Header = () => {
             </nav>
             <div className="title-container">
                 <h1>5 Star Hotel</h1>
-                <h2>A global icon of Arabian luxury</h2>
+                <h2>YOUR COMFORT IN LUXURY!!!</h2>
             </div>
         </div>
     );
